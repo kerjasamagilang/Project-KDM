@@ -1,5 +1,14 @@
 import React from "react"
+import Layout from "../components/layout";
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return (
+    <Layout>
+      <h1>Home</h1>
+      <p>
+        What do I like to do? Lots of course but definitely enjoy building
+        websites.
+      </p>
+    </Layout>
+  );
 }
