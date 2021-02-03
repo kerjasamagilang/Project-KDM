@@ -15,7 +15,7 @@ function Layout({title, lang, description, children }) {
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
           <h3 style={{ display: `inline` }}>Web KDM on Progress</h3>
         </Link>
-        <ul style={{ listtyle:`none`, float: `left` }}>
+        <ul style={{ listStyle:`none`, float: `left` }}>
           <ListLink to="/">Home</ListLink>
           <ListLink to="/about/">About</ListLink>
           <ListLink to="/contact/">Contact</ListLink>
